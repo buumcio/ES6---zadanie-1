@@ -13,7 +13,7 @@ console.log(`Zadanie 2 z podaniem dwóch zmiennych: ${multiply(2, 4)}`);
 
 //-----metoda 1------
 
-let averages1 = (...args) => (args.forEach(arg => arg.length))/args.length
+let averages1 = (...args) => sum(args)/args.length
 
 console.log(`Zadanie 3 - metoda 1: ${averages1(1, 4, 1, 1)}`);
 

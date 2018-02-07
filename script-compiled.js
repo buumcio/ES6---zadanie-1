@@ -24,9 +24,7 @@ var averages1 = function averages1() {
         args[_key] = arguments[_key];
     }
 
-    return args.forEach(function (arg) {
-        return arg.length;
-    }) / args.length;
+    return sum(args) / args.length;
 };
 
 console.log('Zadanie 3 - metoda 1: ' + averages1(1, 4, 1, 1));
